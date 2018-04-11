@@ -26,7 +26,6 @@
             OnNotification(this, new TimerEventArgs(seconds, message));
         }
 
-
         protected virtual void OnNotification(object sender, TimerEventArgs args)
         {
             var eventHandler = Notification;
