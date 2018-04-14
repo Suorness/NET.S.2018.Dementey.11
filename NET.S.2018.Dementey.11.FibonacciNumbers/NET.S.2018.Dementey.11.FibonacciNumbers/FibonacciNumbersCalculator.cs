@@ -32,8 +32,8 @@
 
             for (int i = 0; i < count; i++)
             {
-                yield return current = previous + (previous + current);
-            }
+                yield return current = previous + (previous = current);
+            } 
         }
     }
 }
