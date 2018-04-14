@@ -8,7 +8,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>FibonacciNumbers</RootNamespace>
-    <AssemblyName>NET.S.2018.Dementey.11.FibonacciNumbers</AssemblyName>
+    <AssemblyName>FibonacciNumbers</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

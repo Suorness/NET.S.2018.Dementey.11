@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2005
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NET.S.2018.Dementey.11.FibonacciNumbers", "NET.S.2018.Dementey.11.FibonacciNumbers\NET.S.2018.Dementey.11.FibonacciNumbers.csproj", "{7AFFB131-129F-4A85-9A33-1FB686E78A79}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibonacciNumbers", "NET.S.2018.Dementey.11.FibonacciNumbers\FibonacciNumbers.csproj", "{7AFFB131-129F-4A85-9A33-1FB686E78A79}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{DFE8A77E-B6C3-4BA3-8915-24D85FDA4C68}"
 EndProject

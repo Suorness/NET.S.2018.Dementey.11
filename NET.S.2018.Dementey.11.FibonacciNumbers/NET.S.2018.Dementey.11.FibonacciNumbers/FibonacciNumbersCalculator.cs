@@ -17,6 +17,9 @@
         /// Generating Fibonacci Numbers
         /// </summary>
         /// <param name="count">Number of numbers in a sequence</param>
+        /// <exception cref="ArgumentOutOfRangeException">
+        /// Throws of <paramref name="count"/> less then 0
+        /// </exception>
         /// <returns>
         /// Sequence.
         /// </returns>
@@ -32,7 +35,8 @@
 
             for (int i = 0; i < count; i++)
             {
-                yield return current = previous + (previous = current);
+                current = previous + (previous = current);
+                yield return previous;
             } 
         }
     }
